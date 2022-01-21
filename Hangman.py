@@ -25,8 +25,6 @@ while x == True:
     for i in range(0, len_hangman):
         if blanks[i] != "_":
             counter = counter + 1
-            print(counter)
-            print(len_hangman)
             if counter == len_hangman:
                 x = False
 
